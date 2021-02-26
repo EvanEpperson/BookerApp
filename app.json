@@ -1,0 +1,12 @@
+{
+  "name": "booker",
+  "displayName": "booker",
+  "expo": {
+    "name": "booker",
+    "slug": "booker",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
