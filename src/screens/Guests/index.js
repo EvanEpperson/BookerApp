@@ -13,11 +13,6 @@ const GuestsScreen = () => {
 
     const navigation = useNavigation()
 
-
-    
-
-
-
     return (
       <View style={{justifyContent: 'space-between', height: '100%'}}>
         {/* Row 1 adults */}
@@ -125,7 +120,12 @@ const GuestsScreen = () => {
         </View>
         
           <TouchableOpacity 
-          onPress={() => navigation.navigate('explore') }
+          onPress={() => navigation.navigate('Home', {
+            screen: 'Explore',
+            params: {
+              screen: 'SearchResults'
+            }
+          }) }
           style={{
 
             marginBottom: 20, 

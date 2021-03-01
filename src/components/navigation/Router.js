@@ -5,6 +5,7 @@ import {createStackNavigator} from '@react-navigation/stack'
 import DestinationSearchScreen from '../../screens/DestinationSearch'
 import GuestsScreen from '../../screens/Guests'
 import homeTabNavigator from './HomeTabNavigator'
+import SearchResultsScreen from '../../screens/SearchResults'
 
 const Stack = createStackNavigator()
 
@@ -31,6 +32,13 @@ const Router = (props) => {
           <Stack.Screen
             name={"Guests"}
             component={GuestsScreen}
+            options={{
+              title: "How many People",
+            }}
+          />
+          <Stack.Screen
+            name={"SearchResults"}
+            component={SearchResultsScreen}
             options={{
               title: "How many People",
             }}
