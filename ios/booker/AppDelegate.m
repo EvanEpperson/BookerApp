@@ -5,6 +5,8 @@
 #import <React/RCTRootView.h>
 #import <React/RCTLinkingManager.h>
 
+#import <GoogleMaps/GoogleMaps.h>
+
 #import <UMCore/UMModuleRegistry.h>
 #import <UMReactNativeAdapter/UMNativeModulesProxy.h>
 #import <UMReactNativeAdapter/UMModuleRegistryAdapter.h>
